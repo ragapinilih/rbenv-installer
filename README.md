@@ -15,9 +15,9 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
 ## Install Ruby
 ```
+source ~/.bashrc
 rbenv install 2.7.0
 rbenv global 2.7.0
-source ~/.bashrc
 ```
 
 ## Checking Ruby Installation
