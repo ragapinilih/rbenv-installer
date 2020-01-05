@@ -15,9 +15,13 @@ source ~/.bashrc
 `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash`
 
 ## Install Ruby
-`rbenv install 2.7.0`
-`rbenv global 2.7.0`
+```
+rbenv install 2.7.0
+rbenv global 2.7.0
+```
 
 ## Checking Ruby Installation
-`ruby -v`
-`irb`
+```
+ruby -v
+irb
+```
