@@ -8,7 +8,6 @@ Cara mudah untuk instalasi rbenv
 ```
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-source ~/.bashrc
 ```
 
 ## Rbenv Installer
@@ -18,6 +17,7 @@ source ~/.bashrc
 ```
 rbenv install 2.7.0
 rbenv global 2.7.0
+source ~/.bashrc
 ```
 
 ## Checking Ruby Installation
